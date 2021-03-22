@@ -1,0 +1,11 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    // "javascript.updateImportsOnFileMove.enabled": "always",
+    // "javascript.preferences.importModuleSpecifier": "non-relative",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
