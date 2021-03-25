@@ -33,7 +33,7 @@ export function sendLocal() {
     bigText: 'My big text that will be shown when notification is expanded', // (optional) default: "message" prop
     subText: 'This is a subText', // (optional) default: none
     color: 'red', // (optional) default: system default
-    vibrate: false, // (optional) default: true
+    vibrate: true, // (optional) default: true
     // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: 'some_tag', // (optional) add tag to message
     group: 'group', // (optional) add group to message
@@ -79,7 +79,7 @@ export function sendSchedule(timeSent, smscontent, subText, ticker, title) {
     bigText: smscontent, // (optional) default: "message" prop
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
-    vibrate: false, // (optional) default: true
+    vibrate: true, // (optional) default: true
     // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: 'some_tag', // (optional) add tag to message
     group: 'group', // (optional) add group to message
@@ -190,7 +190,7 @@ export function sendScheduleAnswer(
     bigText: smscontent, // (optional) default: "message" prop
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
-    vibrate: false, // (optional) default: true
+    vibrate: true, // (optional) default: true
     // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: tag, // (optional) add tag to message
     group: group, // (optional) add group to message
@@ -246,7 +246,7 @@ export function sendScheduleRepeated(
     bigText: smscontent, // (optional) default: "message" prop
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
-    vibrate: false, // (optional) default: true
+    vibrate: true, // (optional) default: true
     // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: tag, // (optional) add tag to message
     group: group, // (optional) add group to message
