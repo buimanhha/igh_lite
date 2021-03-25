@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "AppNoiSoi.app"
+               BuildableName = "HLC La&#x300;m sa&#x323;ch &#x111;a&#x323;i tra&#x300;ng Lite.app"
                BlueprintName = "AppNoiSoi"
                ReferencedContainer = "container:AppNoiSoi.xcodeproj">
             </BuildableReference>
@@ -55,6 +55,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+            BuildableName = "HLC La&#x300;m sa&#x323;ch &#x111;a&#x323;i tra&#x300;ng Lite.app"
+            BlueprintName = "AppNoiSoi"
+            ReferencedContainer = "container:AppNoiSoi.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -67,17 +76,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AppNoiSoi.app"
-            BlueprintName = "AppNoiSoi"
-            ReferencedContainer = "container:AppNoiSoi.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -94,7 +92,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AppNoiSoi.app"
+            BuildableName = "HLC La&#x300;m sa&#x323;ch &#x111;a&#x323;i tra&#x300;ng Lite.app"
             BlueprintName = "AppNoiSoi"
             ReferencedContainer = "container:AppNoiSoi.xcodeproj">
          </BuildableReference>
@@ -112,8 +110,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Debug"
@@ -126,7 +122,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "AppNoiSoi.app"
+            BuildableName = "HLC La&#x300;m sa&#x323;ch &#x111;a&#x323;i tra&#x300;ng Lite.app"
             BlueprintName = "AppNoiSoi"
             ReferencedContainer = "container:AppNoiSoi.xcodeproj">
          </BuildableReference>

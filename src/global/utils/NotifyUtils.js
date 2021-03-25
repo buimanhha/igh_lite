@@ -45,7 +45,7 @@ export function sendLocal() {
     /* iOS and Android properties */
     title: 'My Notification Title', // (optional)
     message: 'My Notification Message', // (required)
-    playSound: false, // (optional) default: true
+    playSound: true, // (optional) default: true
     soundName: 'default', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
@@ -91,7 +91,7 @@ export function sendSchedule(timeSent, smscontent, subText, ticker, title) {
     title: title, // (optional)
     message: smscontent, // (required)
     date: timeSent,
-    playSound: false, // (optional) default: true
+    playSound: true, // (optional) default: true
     soundName: 'default', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
@@ -202,7 +202,7 @@ export function sendScheduleAnswer(
     title: title, // (optional)
     message: smscontent, // (required)
     date: timeSent,
-    playSound: false, // (optional) default: true
+    playSound: true, // (optional) default: true
     soundName: 'default', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
@@ -258,7 +258,7 @@ export function sendScheduleRepeated(
     title: title, // (optional)
     message: smscontent, // (required)
     date: timeSent,
-    playSound: false, // (optional) default: true
+    playSound: true, // (optional) default: true
     soundName: 'default', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
