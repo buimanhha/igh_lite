@@ -155,7 +155,7 @@ export default class App extends Component {
   }
 
   onRegister(token) {
-    Alert.alert('Registered !', JSON.stringify(token));
+    // Alert.alert('Registered !', JSON.stringify(token));
     console.log(token);
     this.setState({registerToken: token.token, gcmRegistered: true});
   }
