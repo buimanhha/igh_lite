@@ -1,4 +1,4 @@
-package com.appnoisoi;
+package com.appnoisoi.lite;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

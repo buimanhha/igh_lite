@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.appnoisoi">
+  package="com.appnoisoi.lite">
 
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -43,24 +43,7 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-        <!-- <service
-            android:name="com.appnoisoi.NotificationService"
-            android:enabled="true"
-            android:exported="false" >
-        </service>
-        <service                       
-            android:name="com.appnoisoi.NotificationEventService">
-        </service>
-        <receiver
-            android:name="com.appnoisoi.BootUpReceiver"
-            android:enabled="true"
-            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver> -->
-
+        
 
         <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_name"
                 android:value="YOUR NOTIFICATION CHANNEL NAME"/>
