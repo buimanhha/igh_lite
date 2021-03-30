@@ -2616,7 +2616,7 @@ class ActiveRegimen extends Component {
                       flex: 0.3,
                     }}>
                     {
-                      'Phác đồ đang tạm dừng. Vui lòng liên hệ nhân viên y tế để tiếp tục uống thuốc'
+                      'Phác đồ đang tạm dừng. Vui lòng liên hệ nhân viên y tế để tiếp tục uống thuốc và kích hoạt lại ứng dụng'
                     }
                   </Text>
                 )}
@@ -2634,7 +2634,7 @@ class ActiveRegimen extends Component {
                       flex: 0.3,
                     }}>
                     {
-                      'Phác đồ đang tạm dừng. Vui lòng liên hệ nhân viên y tế để tiếp tục uống thuốc'
+                      'Phác đồ đang tạm dừng. Vui lòng liên hệ nhân viên y tế để tiếp tục uống thuốc và kích hoạt lại ứng dụng'
                     }
                   </Text>
                 )}

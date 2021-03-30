@@ -1,4 +1,4 @@
-package com.appnoisoi;
+package com.appnoisoi.lite;
 
 import android.app.Application;
 import android.content.Context;
@@ -12,7 +12,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import com.appnoisoi.NotificationPackage;
+import com.appnoisoi.lite.NotificationPackage;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 
