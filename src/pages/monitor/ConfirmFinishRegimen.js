@@ -786,7 +786,56 @@ class ConfirmFinishRegimen extends Component {
                   <View style={styles.flatForm}>
                     <TouchableOpacity onPress={() => this.changeResult(index)}>
                       <Text style={styles.titleImage}>Hình {index + 1}</Text>
-                      <Image
+                      {index == 0 && (
+                        <Image
+                          source={require('../../global/asset/images/_Hinh1.png')}
+                          style={{
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            alignContent:'center',
+                            height: moderateScale(75),
+                            resizeMode: 'contain',
+                          }}
+                        />
+                      )}
+                      {index == 1 && (
+                        <Image
+                          source={require('../../global/asset/images/_Hinh2.png')}
+                          style={{
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            alignContent:'center',
+                            height: moderateScale(75),
+                            resizeMode: 'contain',
+                          }}
+                        />
+                      )}
+                      {index == 2 && (
+                        <Image
+                          source={require('../../global/asset/images/_Hinh3.png')}
+                          style={{
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            alignContent:'center',
+                            height: moderateScale(75),
+                            resizeMode: 'contain',
+                          }}
+                        />
+                      )}
+                      {index == 3 && (
+                        <Image
+                          source={require('../../global/asset/images/_Hinh4.png')}
+                          style={{
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            alignContent:'center',
+                            height: moderateScale(75),
+                            resizeMode: 'contain',
+                          }}
+                        />
+                      )}
+
+                      {/* <Image
                         source={{
                           uri: api_end_point + item.image.url,
                         }}
@@ -795,7 +844,7 @@ class ConfirmFinishRegimen extends Component {
                           alignItems: 'center',
                           height: moderateScale(75),
                         }}
-                      />
+                      /> */}
                       <CheckBox
                         center
                         onPress={() => this.changeResult(index)}
@@ -1187,8 +1236,9 @@ const styles = StyleSheet.create({
   //flat
   flatForm: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
     alignContent: 'center',
+    justifyContent: "center",
     // marginTop: -5,
   },
   titleImage: {
