@@ -588,7 +588,7 @@ class PreActiveRegimen extends Component {
                       style={styles.imageButton}
                       source={require('../../global/asset/images/hospital.png')}
                     />
-                    <Text style={styles.titleCheckbox}>Phòng Khám</Text>
+                    <Text style={styles.titleCheckbox}>Cơ sở y tế</Text>
                     <CheckBox
                       checked={this.state.atClinic}
                       size={35}

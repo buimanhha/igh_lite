@@ -567,8 +567,9 @@ class ConfirmFinishRegimen extends Component {
         </Text>
         <Text
           style={{fontSize: moderateScale(18), paddingLeft: moderateScale(5)}}>
-          - Đi lại nhiều.{'\n'}- Xoa bụng thường xuyên.{'\n'}- Nếu có dấu hiệu
-          bất thường cần báo ngay cho nhân viên y tế.
+          - Đi lại nhiều.{'\n'}- Xoa bụng thường xuyên.{'\n'}- Không ăn/uống bất
+          kì loại đồ ăn/thức uống nào kể cả nước lọc.{'\n'}- Nếu có dấu hiệu bất
+          thường cần báo ngay cho nhân viên y tế.
         </Text>
       </View>
     );
@@ -792,7 +793,7 @@ class ConfirmFinishRegimen extends Component {
                           style={{
                             justifyContent: 'center',
                             alignItems: 'center',
-                            alignContent:'center',
+                            alignContent: 'center',
                             height: moderateScale(75),
                             resizeMode: 'contain',
                           }}
@@ -804,7 +805,7 @@ class ConfirmFinishRegimen extends Component {
                           style={{
                             justifyContent: 'center',
                             alignItems: 'center',
-                            alignContent:'center',
+                            alignContent: 'center',
                             height: moderateScale(75),
                             resizeMode: 'contain',
                           }}
@@ -816,7 +817,7 @@ class ConfirmFinishRegimen extends Component {
                           style={{
                             justifyContent: 'center',
                             alignItems: 'center',
-                            alignContent:'center',
+                            alignContent: 'center',
                             height: moderateScale(75),
                             resizeMode: 'contain',
                           }}
@@ -828,7 +829,7 @@ class ConfirmFinishRegimen extends Component {
                           style={{
                             justifyContent: 'center',
                             alignItems: 'center',
-                            alignContent:'center',
+                            alignContent: 'center',
                             height: moderateScale(75),
                             resizeMode: 'contain',
                           }}
@@ -1238,7 +1239,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     alignContent: 'center',
-    justifyContent: "center",
+    justifyContent: 'center',
     // marginTop: -5,
   },
   titleImage: {
