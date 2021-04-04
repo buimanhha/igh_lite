@@ -740,7 +740,7 @@ class ConfirmFinishRegimen extends Component {
         <View style={styles.formBtn}>
           <View style={styles.groupBtn}>
             <Button
-              disabled={countConfirm == 0}
+              disabled={this.state.confirmNumber == 0}
               buttonStyle={styles.activeBtn}
               disabledStyle={styles.disableBtn}
               disabledTitleStyle={{color: '#fff'}}
