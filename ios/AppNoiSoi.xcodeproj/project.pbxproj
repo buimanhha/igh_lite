@@ -26,6 +26,7 @@
 		FE0D975624430E620047B460 /* RNBackgroundFetch+AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0D975524430E620047B460 /* RNBackgroundFetch+AppDelegate.m */; };
 		FE6E30C1247444B3003A9264 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = FE6E30C0247444B2003A9264 /* assets */; };
 		FEF2F39A247D5BDD00707023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF2F399247D5BDD00707023 /* Images.xcassets */; };
+		FEFA93B1261E124A008DB6F2 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEFA93B0261E124A008DB6F2 /* alarm.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		FE6E30C0247444B2003A9264 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = AppNoiSoi/assets; sourceTree = "<group>"; };
 		FEF2F399247D5BDD00707023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEF6370A243E3C780003E2D2 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		FEFA93B0261E124A008DB6F2 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		146A9F728CD94713AF5A00CA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FEFA93B0261E124A008DB6F2 /* alarm.wav */,
 				47C3774E34014FA9B267B130 /* Roboto_medium.ttf */,
 				F5D7FB252FC04464888AA45F /* Roboto.ttf */,
 				CECF26ECD0BF4F1F997DCCCC /* rubicon-icon-font.ttf */,
@@ -385,6 +388,7 @@
 			files = (
 				FE6E30C1247444B3003A9264 /* assets in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FEFA93B1261E124A008DB6F2 /* alarm.wav in Resources */,
 				FEF2F39A247D5BDD00707023 /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				1EDD4887C261421DB666F115 /* Roboto_medium.ttf in Resources */,
@@ -732,14 +736,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 4LMZR2QQNY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AppNoiSoi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -761,13 +765,13 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 4LMZR2QQNY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = AppNoiSoi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(PROJECT_DIR)/../node_modules/react-native-background-fetch/ios";
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.5;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
