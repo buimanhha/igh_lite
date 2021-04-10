@@ -130,7 +130,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.appnoisoi.lite"
+        applicationId 'com.appnoisoi.lite'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 4
@@ -172,8 +172,8 @@ android {
             debuggable false
             multiDexEnabled true
             signingConfig signingConfigs.release
-            // minifyEnabled enableProguardInReleaseBuilds
-            // proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        // minifyEnabled enableProguardInReleaseBuilds
+        // proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
     // applicationVariants are e.g. debug, release
