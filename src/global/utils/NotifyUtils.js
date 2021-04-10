@@ -34,7 +34,7 @@ export function sendLocal() {
     subText: 'This is a subText', // (optional) default: none
     color: 'red', // (optional) default: system default
     vibrate: true, // (optional) default: true
-    // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+    vibration: 3000, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: 'some_tag', // (optional) add tag to message
     group: 'group', // (optional) add group to message
     ongoing: true, // (optional) set whether this is an "ongoing" notification
@@ -46,7 +46,7 @@ export function sendLocal() {
     title: 'My Notification Title', // (optional)
     message: 'My Notification Message', // (required)
     playSound: true, // (optional) default: true
-    soundName: 'alarm.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+    soundName: 'glass_moderate.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
     // actions: '["Yes", "No"]', // (Android only) See the doc for notification actions to know more
@@ -80,7 +80,7 @@ export function sendSchedule(timeSent, smscontent, subText, ticker, title) {
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
     vibrate: true, // (optional) default: true
-    // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+    vibration: 3000, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: 'some_tag', // (optional) add tag to message
     group: 'group', // (optional) add group to message
     ongoing: true, // (optional) set whether this is an "ongoing" notification
@@ -92,7 +92,7 @@ export function sendSchedule(timeSent, smscontent, subText, ticker, title) {
     message: smscontent, // (required)
     date: timeSent,
     playSound: true, // (optional) default: true
-    soundName: 'alarm.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+    soundName: 'glass_moderate.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
     // actions: '["Yes", "No"]', // (Android only) See the doc for notification actions to know more
@@ -128,7 +128,7 @@ export function sendScheduleWithId(
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
     vibrate: true, // (optional) default: true
-    // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+    vibration: 3000, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: 'some_tag', // (optional) add tag to message
     group: 'group', // (optional) add group to message
     ongoing: true, // (optional) set whether this is an "ongoing" notification
@@ -140,7 +140,7 @@ export function sendScheduleWithId(
     message: smscontent, // (required)
     date: timeSent,
     playSound: true, // (optional) default: true
-    soundName: 'alarm.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+    soundName: 'glass_moderate.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
     // actions: '["Yes", "No"]', // (Android only) See the doc for notification actions to know more
@@ -191,7 +191,7 @@ export function sendScheduleAnswer(
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
     vibrate: true, // (optional) default: true
-    // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+    vibration: 3000, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: tag, // (optional) add tag to message
     group: group, // (optional) add group to message
     ongoing: true, // (optional) set whether this is an "ongoing" notification
@@ -203,7 +203,7 @@ export function sendScheduleAnswer(
     message: smscontent, // (required)
     date: timeSent,
     playSound: true, // (optional) default: true
-    soundName: 'alarm.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+    soundName: 'glass_moderate.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
     repeatType: repeatType,
@@ -247,7 +247,7 @@ export function sendScheduleRepeated(
     subText: subText, // (optional) default: none
     color: 'red', // (optional) default: system default
     vibrate: true, // (optional) default: true
-    // vibration: 300, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
+    vibration: 3000, // vibration length in milliseconds, ignored if vibrate=false, default: 1000
     tag: tag, // (optional) add tag to message
     group: group, // (optional) add group to message
     ongoing: true, // (optional) set whether this is an "ongoing" notification
@@ -259,7 +259,7 @@ export function sendScheduleRepeated(
     message: smscontent, // (required)
     date: timeSent,
     playSound: true, // (optional) default: true
-    soundName: 'alarm.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
+    soundName: 'glass_moderate.wav', // (optional) Sound to play when the notification is shown. Value of 'default' plays the default sound. It can be set to a custom sound such as 'android.resource://com.xyz/raw/my_sound'. It will look for the 'my_sound' audio file in 'res/raw' directory and play it. default: 'default' (default sound is played)
     number: '1', // (optional) Valid 32 bit integer specified as string. default: none (Cannot be zero)
     // repeatType: 'day', // (optional) Repeating interval. Check 'Repeating Notifications' section for more info.
     repeatType: repeatType,
