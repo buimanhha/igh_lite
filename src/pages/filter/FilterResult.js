@@ -85,13 +85,19 @@ class FilterResult extends Component {
   };
 
   backQuestion = () => {
-    Actions.filterQuestion({
-      allowRetry: this.state.allowRetry,
-      edit: this.state.allowSave,
-      count: this.state.questions.length - 1,
-      questions: this.state.questions,
-      answers: this.state.answers,
-    });
+    let allowRetry = this.state.allowRetry;
+    let allowSave = this.state.allowSave;
+    if (CommonService.isNull(allowRetry) && CommonService.isNull(allowSave)) {
+      Actions.filterQuestion({
+        allowRetry: this.state.allowRetry,
+        edit: this.state.allowSave,
+        count: this.state.questions.length - 1,
+        questions: this.state.questions,
+        answers: this.state.answers,
+      });
+    } else {
+      Actions.home();
+    }
   };
 
   resetQuestion = () => {
@@ -125,20 +131,23 @@ class FilterResult extends Component {
     if (CommonService.isNull(infoRegimen)) {
       this.setState({isLoading: false}, () =>
         this.showNotice(
-          'Lỗi thông tin từ hệ thống. Vui lòng liên hệ với nhân viên phòng khám !',
+          'Bạn chưa có phác đồ. Vui lòng liên hệ với nhân viên phòng khám để cấp lại phác đồ !',
         ),
       );
       return;
     }
     let activeCode = infoRegimen.active_code;
-    //console.log('====>> ' + activeCode);
+    // console.log('====>> ' + activeCode);
     if (CommonService.isNullOrEmptyStr(activeCode)) {
-      this.setState({isLoading: false}, () =>
-        this.showNotice(
-          'Lỗi thông tin mã bệnh nhân từ hệ thống. Vui lòng liên hệ với nhân viên phòng khám !',
-        ),
-      );
-      return;
+      activeCode = this.props.userInfo.userInfo.ext_id;
+      if (CommonService.isNullOrEmptyStr(activeCode)) {
+        this.setState({isLoading: false}, () =>
+          this.showNotice(
+            'Lỗi thông tin mã bệnh nhân từ hệ thống. Vui lòng liên hệ với nhân viên phòng khám !',
+          ),
+        );
+        return;
+      }
     }
     let stateRegimen = isNotOk
       ? Constants.PATIENT_AFTER_FILTER_NOT_ALLOW_REGIMEN

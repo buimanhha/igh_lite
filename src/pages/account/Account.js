@@ -100,7 +100,7 @@ class Account extends Component {
     NotifyUtils.cancelAll();
     await StorageUtils.clearAll();
     await store.dispatch(actions.clearAllProps());
-    await store.dispatch(actions.storeUser({}));
+    //await store.dispatch(actions.storeUser({}));
     Actions.login({type: 'reset'});
   };
 
