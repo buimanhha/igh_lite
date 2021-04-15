@@ -313,7 +313,10 @@ class Home extends Component {
       this.setState({isLoading: false}, () =>
         Actions.filterResult({
           allowSave: false,
-          allowRetry: regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE,
+          allowRetry:
+            regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE ||
+            regimenPatientInfo.state ==
+              Constants.PATIENT_AFTER_FILTER_NOT_ALLOW_REGIMEN,
           questions: infoQuestion.quests,
           answers: infoQuestion.answer,
         }),
@@ -347,7 +350,9 @@ class Home extends Component {
         Actions.filterResult({
           allowSave: false,
           allowRetry:
-            regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE,
+            regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE ||
+            regimenPatientInfo.state ==
+              Constants.PATIENT_AFTER_FILTER_NOT_ALLOW_REGIMEN,
           questions: questions,
           answers: answers,
         }),
