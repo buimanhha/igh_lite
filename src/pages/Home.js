@@ -313,7 +313,7 @@ class Home extends Component {
       this.setState({isLoading: false}, () =>
         Actions.filterResult({
           allowSave: false,
-          allowRetry: regimenPatientInfo.regimen_id <= 0,
+          allowRetry: regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE,
           questions: infoQuestion.quests,
           answers: infoQuestion.answer,
         }),
@@ -346,7 +346,8 @@ class Home extends Component {
       this.setState({isLoading: false}, () =>
         Actions.filterResult({
           allowSave: false,
-          allowRetry: regimenPatientInfo.regimen_id <= 0,
+          allowRetry:
+            regimenPatientInfo.state <= Constants.PATIENT_STATE_READY_ACTIVE,
           questions: questions,
           answers: answers,
         }),
